@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "version": "0.0.0",
+  "name": "@yunarch/use-sync-scroll",
+  "description": "Simple react hook for synced scroll position across multiple scrollable elements.",
+  "keywords": ["react", "sync", "scroll"],
+  "author": {
+    "name": "Adrian Lopez Gonzalez",
+    "url": "https://github.com/yunarch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yunarch/useSyncScroll"
+  },
+  "bugs": {
+    "url": "https://github.com/yunarch/useSyncScroll/issues"
+  },
+  "engines": {
+    "bun": ">=1"
+  },
+  "type": "module",
+  "scripts": {},
+  "peerDependencies": {
+    "react": ">=17"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/react": "19.0.12",
+    "typescript": "5.8.2"
+  },
+  "packageManager": "bun@1.2.5"
+}
